@@ -26,11 +26,11 @@ def wishMe():
     hour = int(datetime.datetime.now().hour)
     # print(hour)
     if hour >= 0 and hour <= 12:
-        speak("Good Morning , Hello sanjay , How May I Help You ?")
+        speak("Subh ki Ram Ram , Hello Sheoran , How May I Help You ?")
     elif hour >= 12 and hour < 18:
-        speak("Good Afternoon , I am Jarvis Sir , How May I Help You ?")
+        speak("Dophr ki Ram Ram , Hello Sheoran , How May I Help You ?")
     else:
-        speak("Good Evening , hello sanjay , How May I Help You ?")
+        speak("Sham ki Ram Ram , Hello Sheoran , How May I Help You ?")
 
 
 def takeCommand():
@@ -56,7 +56,7 @@ def takeCommand():
 
 
 if __name__ == "__main__":
-    # wishMe()
+    wishMe()
     # logic for executing tasks based on queries.
 
     while True:
